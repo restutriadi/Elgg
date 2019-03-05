@@ -158,47 +158,48 @@ Elgg membutuhkan MySQL, PHP, dan sebuah web server. Sebelum menginstall Elgg, Ha
 # Configuration
 - Untuk menentukan konfigurasi umum kita dapat membuka submenu `Administration` pada menu `Account` yang terletak di bagian kanan atas layar.
 
+  ![administration](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_administration.PNG)
+
 - Pada bagian `Configure`, terdapat tab `Upgrades`, `Appearence`, `Plugins`, `Settings`, dan `Utilities`.
 
-  ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_configure.PNG)
+  ![configure](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_configure.PNG)
 
 - Tab `Upgrades` berfungsi untuk melakukan update **Elgg** versi terbaru (jika ada).
 
-  ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_upgrades.PNG)
+  ![upgrade](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_upgrades.PNG)
 
 - Tab `Appearence` berfungsi untuk mengatur tampilan web seperti Menu Items dan Widget.
 
-  ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_menuItems.PNG)
+  ![appearence](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_menuItems.PNG)
   
   ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_widgets.PNG)  
 
 - Tab `Plugins` berfungsi untuk menambahkan sebuah program yang bisa diintegrasikan dengan **Elgg** untuk memberikan fungsi-fungsi lain yang belum tersedia pada instalasi standar.
 
-  ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_plugins.PNG)  
+  ![plugin](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_plugins.PNG)  
 
 - Tab `Settings` dapat digunakan untuk mengganti nama website, site URL, pengaturan log, dan lainnya.
 
-  ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_basicSettings.PNG)
+  ![basic_setting](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_basicSettings.PNG)
   
-  ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_advancedSettings.PNG)
+  ![advance_setting](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_advancedSettings.PNG)
   
-  ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_log.PNG)  
+  ![log_setting](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_log.PNG)  
 
 # Maintenance
 Apabila kita ingin merubah atau melakukan perbaikan terhadap aplikasi web, kita dapat masuk ke dalam *maintenance mode*. Pada **Elgg**, *user* yang dapat masuk ke dalam website hanyalah admin. Langkah-langkah untuk masuk ke dalam *maintenance mode*, adalah sebagai berikut:
 1. Login dengan menggunakan akun admin.
 2. Klik submenu `Administration` pada menu `Account`.
 
-    ![menu](https://2.bp.blogspot.com/-jD8tqsXFEZU/WNgF9oM9htI/AAAAAAAAGkE/y5imPsRHlC8WE4FWW_4Ypt7B5qldQwGOACLcB/s1600/Screenshot_4.jpg)
+    ![administration](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_administration.PNG)
 
 3. Pada bagian `Administer` pilih tab `Utilities` > `Maintenance mode`.
 
-    ![maintenance](https://2.bp.blogspot.com/-nP-fEgmv0Nk/WNgF9liISII/AAAAAAAAGkM/79LNJAoksb0J5dhVSqpo2Q4mZf3G4z-YwCLcB/s1600/Screenshot_5.jpg)
+    ![maintenance](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_maintenance.PNG)
 
 4. Pilih **on** pada `Maintenance mode` untuk mengaktifkan *maintenance mode*.
-5. Jika kita ingin agar teman kita dapat membuka aplikasi saat sedang dalam *maintenance mode*, masukkan **IP Adress** miliknya ke dalam field **Maintenance IP**.
-6. Tuliskan pesan yang ingin kita sampaikan ketika ada orang yang membuka aplikasi kita saat sedang maintenance ke dalam field `Message displayed to users when maintenance mode is on:`
-7. Klik tombol `Save` untuk menyimpan perubahan.
+5. Tuliskan pesan yang ingin disampaikan ketika ada orang yang membuka aplikasi saat sedang maintenance ke dalam field `Message displayed to users when maintenance mode is on:`
+6. Klik tombol `Save` untuk menyimpan perubahan.
 
 # How to Use
 []
