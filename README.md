@@ -185,7 +185,20 @@ Elgg membutuhkan MySQL, PHP, dan sebuah web server. Sebelum menginstall Elgg, Ha
   ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_log.PNG)  
 
 # Maintenance
-[]
+Apabila kita ingin merubah atau melakukan perbaikan terhadap aplikasi web, kita dapat masuk ke dalam *maintenance mode*. Pada **Elgg**, *user* yang dapat masuk ke dalam website hanyalah admin. Langkah-langkah untuk masuk ke dalam *maintenance mode*, adalah sebagai berikut:
+1. Login dengan menggunakan akun admin.
+2. Klik submenu `Administration` pada menu `Account`.
+
+    ![menu](https://2.bp.blogspot.com/-jD8tqsXFEZU/WNgF9oM9htI/AAAAAAAAGkE/y5imPsRHlC8WE4FWW_4Ypt7B5qldQwGOACLcB/s1600/Screenshot_4.jpg)
+
+3. Pada bagian `Administer` pilih tab `Utilities` > `Maintenance mode`.
+
+    ![maintenance](https://2.bp.blogspot.com/-nP-fEgmv0Nk/WNgF9liISII/AAAAAAAAGkM/79LNJAoksb0J5dhVSqpo2Q4mZf3G4z-YwCLcB/s1600/Screenshot_5.jpg)
+
+4. Pilih **on** pada `Maintenance mode` untuk mengaktifkan *maintenance mode*.
+5. Jika kita ingin agar teman kita dapat membuka aplikasi saat sedang dalam *maintenance mode*, masukkan **IP Adress** miliknya ke dalam field **Maintenance IP**.
+6. Tuliskan pesan yang ingin kita sampaikan ketika ada orang yang membuka aplikasi kita saat sedang maintenance ke dalam field `Message displayed to users when maintenance mode is on:`
+7. Klik tombol `Save` untuk menyimpan perubahan.
 
 # How to Use
 []
