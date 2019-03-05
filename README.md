@@ -205,4 +205,9 @@ Apabila kita ingin merubah atau melakukan perbaikan terhadap aplikasi web, kita 
 []
 
 # Compared to Other CMS
-[Dikma]
+
+Dibandingkan dengan CMS *open source* sejenisnya seperti **BuddyPress**, CMS ini memiliki beberapa keunggulan dan kelemahan. Berikut adalah beberapa perbandingan antara kedua CMS ini:
+
+- **Elgg** dapat di *customize* secara luas dan mendalam. Tidak seperti **BuddyPress** yang memiliki limitasi dalam pengembangannya.
+- Karena base framework yang berbasis **WordPress**, **BuddyPress** lebih mudah digunakan oleh pengguna dibandingkan **Elgg**. Baik dari sisi *user* maupun dari sisi *administrator*.
+- Pembelajaran bagi developer pemula lebih sulit jika menggunakan **Elgg**. Sebaliknya, **BuddyPress** lebih mudah dipahami oleh developer pemula.
