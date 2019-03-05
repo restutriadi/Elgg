@@ -1,6 +1,10 @@
 ![alt text](https://elgg.org/cache/1545410058/default/logo-full.svg)
 
-<img style="display: block; margin: auto" src="https://elgg.org/cache/1545410058/default/logo-full.svg">
+<div style="text-align:center" markdown="1">
+
+![Alt Text](https://elgg.org/cache/1545410058/default/logo-full.svg)
+
+</div>
 
 # Overview
 # Installation
