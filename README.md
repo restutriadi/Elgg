@@ -132,31 +132,27 @@ $ sudo systemctl restart apache2.service
 
 ## Langkah 5: Selesaikan Pemasangan Elgg.
 - Pada tahap ini, anda dapat menyelesaikan pemasangan melalui browser. Buka browser di komputer anda dan masuk ke *domain* yang telah dimasukkan. Kemudian akan muncul **Elgg browser installer**.
-
     ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/1.png)
 
 - Kemudian akan ada **Requirements check** dari server yang anda buat terlebih dahulu.
-![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/2.png)
+    ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/2.png)
 
 - Lanjutkan pemasangan ke langkah `Database installation`. Di sini masukkan data yang telah anda buat di **Langkah 2** dan lanjutkan ke tahap selanjutnya.
-
-![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/3fix.png)
+    ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/3fix.png)
 
 - Tahap selanjutnya, masukkan *site name* dan alamat email yang akan digunakan. Pada bagian `Site URL`, masukan nama domain anda. Pada bagian `Data Directory`, masukan `/var/www/html/data` dan masuk ke langkah selanjutnya.
+    ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/5fix.png)
 
-![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/5fix.png)
-
-- Masukan data untuk *administrator* anda, dan klik `Next`. Sampai tahap ini, proses pemasangan telah selesai.
-
-![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/8.png)
+- Masukan data untuk *administrator* anda, dan klik `Next`. Sampai tahap ini, proses pemasangan telah selesai.  
+    ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/8.png)
 
 - Untuk dapat masuk ke panel administrator, arahkan ke URL berikut.
-```
-http://{your-domain-name}/admin
-```
+    ```
+    http://{your-domain-name}/admin
+    ```
 
 - Anda telah berhasil memasang Elgg pada Ubuntu 18.04 VPS dan dapat memulai mengatur jaringan sosial anda.
-![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/9.png)
+    ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/9.png)
 
 
 
