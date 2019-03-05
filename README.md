@@ -6,7 +6,7 @@
 **Elgg** memungkinkan individu, kelompok, dan institusi untuk menciptakan web *social media* mereka sendiri. **Elgg**, mulai diluncurkan pada tahun 2004, adalah CMS (*content management system*) yang bersifat *open source*. Jika Anda mencari intranet sosial untuk menjalankan situs organisasi Anda, **Elgg** adalah pilihan yang tepat. Untuk informasi lebih lanjut, silahkan kunjungi [**Elgg**](https://elgg.org/).
 
 # Installation
-##Langkah 1 :Install Apache, MySQL, dan PHP
+## Langkah 1 :Install Apache, MySQL, dan PHP
 
 Elgg membutuhkan MySQL, PHP, dan sebuah *web server*. Sebelum menginstall Elgg, Hal yang terlebih dahulu dilakukan yaitu menginstall MySQL, dan PHP.
 
@@ -46,7 +46,7 @@ Install PHP 7.2
 apt-get install php7.2 libapache2-mod-php7.2 php7.2-common php7.2-sqlite3 php7.2-curl php7.2-intl php7.2-mbstring php7.2-xmlrpc php7.2-mysql php7.2-gd php7.2-xml php7.2-cli php7.2-zip -y
 ```
 
-##Langkah 2 : Membuat Database MySQL untuk Elgg
+## Langkah 2 : Membuat Database MySQL untuk Elgg
 
 Masuk ke console MySQL
 ```
