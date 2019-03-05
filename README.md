@@ -133,7 +133,7 @@ $ sudo systemctl restart apache2.service
 ## Langkah 5: Selesaikan Pemasangan Elgg.
 - Pada tahap ini, anda dapat menyelesaikan pemasangan melalui browser. Buka browser di komputer anda dan masuk ke *domain* yang telah dimasukkan. Kemudian akan muncul **Elgg browser installer**.
 
-![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/1.png)
+    ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/1.png)
 
 - Kemudian akan ada **Requirements check** dari server yang anda buat terlebih dahulu.
 ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/2.png)
