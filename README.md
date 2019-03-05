@@ -134,19 +134,19 @@ Elgg membutuhkan MySQL, PHP, dan sebuah web server. Sebelum menginstall Elgg, Ha
 
   ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/2.png)
 
-3. Lanjutkan pemasangan ke langkah `Database installation`. Di sini masukkan data yang telah anda buat di **Langkah 2** dan lanjutkan ke tahap selanjutnya.
+3. Lanjutkan pemasangan ke langkah `Database installation`. Di sini masukkan data yang telah Anda buat di **Langkah 2** dan lanjutkan ke tahap selanjutnya.
   
   ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/3fix.png)
 
-4. Tahap selanjutnya, masukkan *site name* dan alamat email yang akan digunakan. Pada bagian `Site URL`, masukan nama domain Anda. Pada bagian `Data Directory`, masukan `/var/www/html/data` dan masuk ke langkah selanjutnya.
+4. Tahap selanjutnya, masukkan *site name* dan alamat email yang akan digunakan. Pada bagian `Site URL`, masukkan nama domain Anda. Pada bagian `Data Directory`, masukkan `/var/www/html/data` dan masuk ke langkah selanjutnya.
 
   ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/5fix.png)
 
-5. Masukan data untuk *administrator* Anda, dan klik `Next`. Sampai tahap ini, proses pemasangan telah selesai.
+5. Masukkan data untuk *administrator* Anda, dan klik `Next`. Sampai tahap ini, proses pemasangan telah selesai.
 
   ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/8.png)
 
-6. Anda telah berhasil memasang Elgg pada Ubuntu 18.04 VPS dan dapat memulai mengatur jaringan sosial anda.
+6. Anda telah berhasil memasang **Elgg** pada Ubuntu 18.04 VPS dan dapat memulai mengatur jaringan sosial Anda.
 
   ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/9.png)
   
