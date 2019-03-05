@@ -14,7 +14,7 @@ Elgg membutuhkan MySQL, PHP, dan sebuah web server. Sebelum menginstall Elgg, Ha
     $ apt-get update
     ```
 
-2. Kemudian install apache web server.
+2. Kemudian install Apache web server.
     ```
     $ apt-get install apache2 -y
     ```
@@ -29,7 +29,7 @@ Elgg membutuhkan MySQL, PHP, dan sebuah web server. Sebelum menginstall Elgg, Ha
     $ /usr/bin/mysql_secure_installation
     ```
 
-5. Pada saat instalasi, anda akan ditanyakan untuk memasukkan root password. Masukkan password yang anda inginkan. Password tersebut akan digunakan untuk root password.
+5. Pada saat instalasi, Anda akan ditanyakan untuk memasukkan root password. Masukkan password yang Anda inginkan. Password tersebut akan digunakan sebagai root password.
     ```
     $ Would you like to setup VALIDATE PASSWORD plugin? [Y/N] N
     $ New password: password
@@ -51,7 +51,7 @@ Elgg membutuhkan MySQL, PHP, dan sebuah web server. Sebelum menginstall Elgg, Ha
     $ mysql -u root -p
     ```
     
-2. Setelah berhasil masuk dan masukkan password, Buat database baru.
+2. Setelah berhasil masuk, masukkan password dan buat database baru.
     ```
     $ CREATE DATABASE elgg;
     ```
@@ -68,7 +68,7 @@ Elgg membutuhkan MySQL, PHP, dan sebuah web server. Sebelum menginstall Elgg, Ha
     ```
 
 ### Langkah 3: Unduh dan Pasang Elgg
-1. Unduh versi terbaru dari Elgg.
+1. Unduh versi terbaru dari **Elgg**.
     ```
     $ cd /var/www/html
     $ rm -r index.html
@@ -82,7 +82,7 @@ Elgg membutuhkan MySQL, PHP, dan sebuah web server. Sebelum menginstall Elgg, Ha
     $ mv ./elgg-2.3.7/* . && rm elgg-2.3.7.zip && rm -r elgg-2.3.7
     ```
 
-3. Membuat direktori data baru untuk Elgg.
+3. Membuat direktori data baru untuk **Elgg**.
     ```
     $ sudo mkdir -p /var/www/html/data
     ```
@@ -94,17 +94,17 @@ Elgg membutuhkan MySQL, PHP, dan sebuah web server. Sebelum menginstall Elgg, Ha
     ```
 
 ### Langkah 4: Mengatur Apache untuk Elgg
-1. Elgg memerlukan Apache untuk menulis ulang *module*.
+1. **Elgg** memerlukan Apache untuk menulis ulang *module*.
     ```
     $ sudo a2enmod rewrite
     ```
 
-2. Membuat file konfigurasi Apache untuk proses pemasangan Elgg.
+2. Membuat file konfigurasi Apache untuk proses pemasangan **Elgg**.
     ```
     $ sudo nano /etc/apache2/sites-available/elgg.conf
     ```
 
-3. *Paste* potongan berikut ke file tersebut, ganti `example.com` sesuai domain anda.
+3. *Paste* potongan berikut ke file tersebut, ganti `example.com` sesuai domain Anda.
     ```
     $ <VirtualHost *:80>
     $      DocumentRoot /var/www/html/
@@ -126,11 +126,11 @@ Elgg membutuhkan MySQL, PHP, dan sebuah web server. Sebelum menginstall Elgg, Ha
     ```
 
 ### Langkah 5: Selesaikan Pemasangan Elgg
-1. Pada tahap ini, anda dapat menyelesaikan pemasangan melalui browser. Buka browser di komputer anda dan masuk ke *domain* yang telah dimasukkan. Kemudian akan muncul **Elgg browser installer**.
+1. Pada tahap ini, Anda dapat menyelesaikan pemasangan melalui browser. Buka browser di komputer Anda dan masuk ke *domain* yang telah dimasukkan. Kemudian akan muncul **Elgg browser installer**.
 
   ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/1.png)
 
-2. Kemudian akan ada **Requirements check** dari server yang anda buat terlebih dahulu.
+2. Kemudian akan ada **Requirements check** dari server yang Anda buat terlebih dahulu.
 
   ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/2.png)
 
@@ -138,22 +138,22 @@ Elgg membutuhkan MySQL, PHP, dan sebuah web server. Sebelum menginstall Elgg, Ha
   
   ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/3fix.png)
 
-4. Tahap selanjutnya, masukkan *site name* dan alamat email yang akan digunakan. Pada bagian `Site URL`, masukan nama domain anda. Pada bagian `Data Directory`, masukan `/var/www/html/data` dan masuk ke langkah selanjutnya.
+4. Tahap selanjutnya, masukkan *site name* dan alamat email yang akan digunakan. Pada bagian `Site URL`, masukan nama domain Anda. Pada bagian `Data Directory`, masukan `/var/www/html/data` dan masuk ke langkah selanjutnya.
 
   ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/5fix.png)
 
-5. Masukan data untuk *administrator* anda, dan klik `Next`. Sampai tahap ini, proses pemasangan telah selesai.
+5. Masukan data untuk *administrator* Anda, dan klik `Next`. Sampai tahap ini, proses pemasangan telah selesai.
 
   ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/8.png)
 
-6. Untuk dapat masuk ke panel administrator, arahkan ke URL berikut.
+6. Anda telah berhasil memasang Elgg pada Ubuntu 18.04 VPS dan dapat memulai mengatur jaringan sosial anda.
+
+  ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/9.png)
+  
+7. Untuk dapat masuk ke panel administrator, arahkan ke URL berikut.
     ```
     http://{your-domain-name}/admin
     ```
-
-7. Anda telah berhasil memasang Elgg pada Ubuntu 18.04 VPS dan dapat memulai mengatur jaringan sosial anda.
-
-  ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/9.png)
 
 # Configuration
 - Untuk menentukan konfigurasi umum kita dapat membuka submenu `Administration` pada menu `Account` yang terletak di bagian kanan atas layar.
