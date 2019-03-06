@@ -251,7 +251,7 @@ Apabila kita ingin merubah atau melakukan perbaikan terhadap aplikasi web, kita 
 # Compared to Other CMS
 
 <p align="center">
-  <img width="900" height="300" src="https://buddypress.org/media/text.png">
+  <img width="600" height="300" src="https://buddypress.org/media/text.png">
 </p>
 
 Dibandingkan dengan CMS *open source* sejenisnya seperti **BuddyPress**, CMS ini memiliki beberapa keunggulan dan kelemahan. Berikut adalah beberapa perbandingan antara kedua CMS ini:
