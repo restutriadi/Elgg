@@ -127,9 +127,8 @@ Elgg membutuhkan MySQL, PHP, dan sebuah web server. Sebelum menginstall Elgg, Ha
 
 ### Langkah 5: Selesaikan Pemasangan Elgg
 1. Pada tahap ini, Anda dapat menyelesaikan pemasangan melalui browser. Buka browser di komputer Anda dan masuk ke *domain* yang telah dimasukkan. Kemudian akan muncul **Elgg browser installer**.
-   <p align="center">
-    <img src="https://raw.githubusercontent.com/restutriadi/Elgg/master/image/1.png">
-   </p>
+   
+   ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/1.png")
 
 2. Kemudian akan ada **Requirements check** dari server yang Anda buat terlebih dahulu.
 
@@ -252,7 +251,7 @@ Apabila kita ingin merubah atau melakukan perbaikan terhadap aplikasi web, kita 
 # Compared to Other CMS
 
 <p align="center">
-  <img width="460" height="300" src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fbuddypress.org%2Fwp-content%2Fuploads%2F15%2F2009%2F12%2Fbp-light-hi-2880x1800.png&imgrefurl=https%3A%2F%2Fcodex.buddypress.org%2Fofficial-fonts-and-logos%2F&docid=vvxAcwWGAa77pM&tbnid=Nyk-jMzxbiyqeM%3A&vet=10ahUKEwil75uh3ezgAhWDNd8KHY94BF8QMwg8KAEwAQ..i&w=2880&h=1800&safe=active&client=firefox-b-d&bih=730&biw=1525&q=buddypress%20logo&ved=0ahUKEwil75uh3ezgAhWDNd8KHY94BF8QMwg8KAEwAQ&iact=mrc&uact=8#h=1800&imgdii=WUCDA_IvwdfouM:&vet=10ahUKEwil75uh3ezgAhWDNd8KHY94BF8QMwg8KAEwAQ..i&w=2880">
+  <img width="460" height="300" src="https://buddypress.org/media/text.png">
 </p>
 
 Dibandingkan dengan CMS *open source* sejenisnya seperti **BuddyPress**, CMS ini memiliki beberapa keunggulan dan kelemahan. Berikut adalah beberapa perbandingan antara kedua CMS ini:
