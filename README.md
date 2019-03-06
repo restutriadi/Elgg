@@ -6,8 +6,13 @@
 **Elgg** memungkinkan individu, kelompok, dan institusi untuk menciptakan web *social media* mereka sendiri. **Elgg**, mulai diluncurkan pada tahun 2004, adalah CMS (*content management system*) yang bersifat *open source*. Jika Anda mencari intranet sosial untuk menjalankan situs organisasi Anda, **Elgg** adalah pilihan yang tepat. Untuk informasi lebih lanjut, silahkan kunjungi [**Elgg**](https://elgg.org/).
 
 # Installation
+### Kebutuhan Sistem :
+- MySQL 5.0+
+- PHP 5.5+
+- Apache Web server
+
 ### Langkah 1: Install Apache, MySQL, dan PHP
-Elgg membutuhkan MySQL, PHP, dan sebuah web server. Sebelum menginstall Elgg, Hal yang terlebih dahulu dilakukan yaitu menginstall MySQL, dan PHP
+**Elgg** membutuhkan MySQL, PHP, dan sebuah web server. Sebelum menginstall **Elgg**, Hal yang terlebih dahulu dilakukan yaitu menginstall MySQL, dan PHP
 
 1. Update repository list.
     ```
