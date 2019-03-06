@@ -202,7 +202,26 @@ Apabila kita ingin merubah atau melakukan perbaikan terhadap aplikasi web, kita 
 6. Klik tombol `Save` untuk menyimpan perubahan.
 
 # How to Use
-[]
+### Add User Account
+- Register
+    1. Pada halaman awal, pilih `Register`
+    2. Lengkapi identitas *user*, lalu pilih *Register*
+    3. Kemudian *user* harus melakukan validasi akun melalui alamat email yang sudah didaftarkan
+- Register by Admin
+    1. Admin dapat menambahkan *user* melalui `Administer` > `Users` > `Add New User`
+    2. Lengkapi identitas *user*, lalu pilih *Register*
+    3. *User* yang ditambahkan oleh admin, tidak perlu melakukan validasi melalui alamat email
+    4. Admin juga dapat memvalidasi akun *user* baru pada bagian `Administer` > `Users` > `Unvalidated`
+
+### Add Blog Post
+1. Pergi ke menu `Blogs`, lalu pilih *Add blog post*
+2. Buat post yang diinginkan. Pengguna dapat mengubah isi konten dengan menggunakan HTML (*Edit HTML*)
+3. *User* dapat melihat *Preview* post yang dibuat. Jika post sudah siap di-*publish*, pilih *Save*
+
+### Add Friends
+1. Untuk menambahkan teman baru, pergi ke menu `More` > `Members`
+2. Pada bagian ini, *user* dapat melihat akun *user* yang lain
+3. Pilih akun yang ingin ditambahkan sebagai teman, lalu pilih *Add friend* yang berada di bagian bawah foto
 
 # Compared to Other CMS
 
