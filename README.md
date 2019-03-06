@@ -3,7 +3,7 @@
 </p>
 
 [Overview](#overview) | [Installation](#installation) | [Configuration](#configuration) | [Maintenance](#maintenance) | [How to Use](#how-to-use) | [Compared to Other CMS](#compared-to-other-cms)
-:---:|:---:|:---:|:---:|:---:|:---:|:---:
+:---:|:---:|:---:|:---:|:---:|:---:
 
 # Overview
 **Elgg** memungkinkan individu, kelompok, dan institusi untuk menciptakan web *social media* mereka sendiri. **Elgg**, mulai diluncurkan pada tahun 2004, adalah CMS (*content management system*) yang bersifat *open source*. Jika Anda mencari intranet sosial untuk menjalankan situs organisasi Anda, **Elgg** adalah pilihan yang tepat. Untuk informasi lebih lanjut, silahkan kunjungi [**Elgg**](https://elgg.org/).
