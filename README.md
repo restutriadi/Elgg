@@ -133,7 +133,7 @@
 ### Langkah 5: Selesaikan Pemasangan Elgg
 1. Pada tahap ini, Anda dapat menyelesaikan pemasangan melalui browser. Buka browser di komputer Anda dan masuk ke *domain* yang telah dimasukkan. Kemudian akan muncul **Elgg browser installer**.
    
-   ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/1.png")
+   ![alt text](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/1.png)
 
 2. Kemudian akan ada **Requirements check** dari server yang Anda buat terlebih dahulu.
 
