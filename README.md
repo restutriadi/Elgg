@@ -6,11 +6,11 @@
 :---:|:---:|:---:|:---:|:---:|:---:
 
 # Overview
-[`^ Back to Top ^`](#)
+
 **Elgg** memungkinkan individu, kelompok, dan institusi untuk menciptakan web *social media* mereka sendiri. **Elgg**, mulai diluncurkan pada tahun 2004, adalah CMS (*content management system*) yang bersifat *open source*. Jika Anda mencari intranet sosial untuk menjalankan situs organisasi Anda, **Elgg** adalah pilihan yang tepat. Untuk informasi lebih lanjut, silahkan kunjungi [**Elgg**](https://elgg.org/).
 
 # Installation
-[`^ Back to Top ^`](#)
+
 ### Kebutuhan Sistem :
 - MySQL 5.0+
 - PHP 5.5+
@@ -165,8 +165,8 @@
     http://{your-domain-name}/admin
     ```
 
-# Configuration
-[`^ Back to Top ^`](#)
+# Configuration [`^ Back to Top ^`](#)
+
 - Untuk menentukan konfigurasi umum kita dapat membuka submenu `Administration` pada menu `Account` yang terletak di bagian kanan atas layar.
 
   ![administration](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_administration.PNG)
@@ -197,8 +197,8 @@
   
   ![log_setting](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_log.PNG)  
 
-# Maintenance
-[`^ Back to Top ^`](#)
+# Maintenance [`^ Back to Top ^`](#)
+
 Apabila kita ingin merubah atau melakukan perbaikan terhadap aplikasi web, kita dapat masuk ke dalam *maintenance mode*. Pada **Elgg**, *user* yang dapat masuk ke dalam website hanyalah admin. Langkah-langkah untuk masuk ke dalam *maintenance mode*, adalah sebagai berikut:
 1. Login dengan menggunakan akun admin.
 2. Klik submenu `Administration` pada menu `Account`.
@@ -213,8 +213,8 @@ Apabila kita ingin merubah atau melakukan perbaikan terhadap aplikasi web, kita 
 5. Tuliskan pesan yang ingin disampaikan ketika ada orang yang membuka aplikasi saat sedang maintenance ke dalam field `Message displayed to users when maintenance mode is on:`
 6. Klik tombol `Save` untuk menyimpan perubahan.
 
-# How to Use
-[`^ Back to Top ^`](#)
+# How to Use [`^ Back to Top ^`](#)
+
 ### Add User Account
 1. Register
    - Pada halaman awal, pilih `Register`
@@ -261,8 +261,8 @@ Apabila kita ingin merubah atau melakukan perbaikan terhadap aplikasi web, kita 
 
    ![friend](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_profile.PNG)
 
-# Compared to Other CMS
-[`^ Back to Top ^`](#)
+# Compared to Other CMS [`^ Back to Top ^`](#)
+
 <p align="center">
   <img width="600" height="300" src="https://buddypress.org/media/text.png">
 </p>
