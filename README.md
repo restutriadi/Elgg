@@ -191,11 +191,11 @@ Apabila kita ingin merubah atau melakukan perbaikan terhadap aplikasi web, kita 
 1. Login dengan menggunakan akun admin.
 2. Klik submenu `Administration` pada menu `Account`.
 
-    ![administration](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_administration.PNG)
+   ![administration](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_administration.PNG)
 
 3. Pada bagian `Administer` pilih tab `Utilities` > `Maintenance mode`.
 
-    ![maintenance](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_maintenance.PNG)
+   ![maintenance](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_maintenance.PNG)
 
 4. Pilih **on** pada `Maintenance mode` untuk mengaktifkan *maintenance mode*.
 5. Tuliskan pesan yang ingin disampaikan ketika ada orang yang membuka aplikasi saat sedang maintenance ke dalam field `Message displayed to users when maintenance mode is on:`
@@ -203,27 +203,52 @@ Apabila kita ingin merubah atau melakukan perbaikan terhadap aplikasi web, kita 
 
 # How to Use
 ### Add User Account
-- Register
-    1. Pada halaman awal, pilih `Register`
-    2. Lengkapi identitas *user*, lalu pilih *Register*
-    3. Kemudian *user* harus melakukan validasi akun melalui alamat email yang sudah didaftarkan
-- Register by Admin
-    1. Admin dapat menambahkan *user* melalui `Administer` > `Users` > `Add New User`
-    2. Lengkapi identitas *user*, lalu pilih *Register*
-    3. *User* yang ditambahkan oleh admin, tidak perlu melakukan validasi melalui alamat email
-    4. Admin juga dapat memvalidasi akun *user* baru pada bagian `Administer` > `Users` > `Unvalidated`
+1. Register
+   - Pada halaman awal, pilih `Register`
+   
+     ![login](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_login.PNG)
+     
+   - Lengkapi identitas *user*, lalu pilih *Register*
+     
+     ![register](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_register.PNG)
+   
+   - Kemudian *user* harus melakukan validasi akun melalui alamat email yang sudah didaftarkan
+   
+     ![confirm](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_confirm.PNG)
+   
+2. Register by Admin
+   - Admin dapat menambahkan *user* melalui `Administer` > `Users` > `Add New User`
+   - Lengkapi identitas *user*, lalu pilih *Register*
+   
+     ![regist](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_registByAdmin.PNG)
+   
+   - *User* yang ditambahkan oleh admin, tidak perlu melakukan validasi melalui alamat email
+   - Admin juga dapat memvalidasi akun *user* baru pada bagian `Administer` > `Users` > `Unvalidated`
+   
+     ![validate](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_validate.PNG)
 
 ### Add Blog Post
 1. Pergi ke menu `Blogs`, lalu pilih *Add blog post*
+
+   ![blogs](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_blog.PNG)
+
 2. Buat post yang diinginkan. Pengguna dapat mengubah isi konten dengan menggunakan HTML (*Edit HTML*)
+
+   ![post](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_addPost.PNG)
+
 3. *User* dapat melihat *Preview* post yang dibuat. Jika post sudah siap di-*publish*, pilih *Save*
 
 ### Add Friends
 1. Untuk menambahkan teman baru, pergi ke menu `More` > `Members`
+
+   ![members](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_member.PNG)
+
 2. Pada bagian ini, *user* dapat melihat akun *user* yang lain
 3. Pilih akun yang ingin ditambahkan sebagai teman, lalu pilih *Add friend* yang berada di bagian bawah foto
 
-# Compared to Other CMS
+   ![friend](https://raw.githubusercontent.com/restutriadi/Elgg/master/image/elgg_profile.PNG)
+
+# Compared to Other CMS (BuddyPress)
 
 Dibandingkan dengan CMS *open source* sejenisnya seperti **BuddyPress**, CMS ini memiliki beberapa keunggulan dan kelemahan. Berikut adalah beberapa perbandingan antara kedua CMS ini:
 
